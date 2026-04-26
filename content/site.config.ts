@@ -7,7 +7,7 @@ export const siteConfig: PortfolioConfig = {
     location: "Liverpool, United Kingdom",
     email: "Ochinell@outlook.com",
     shortBio:
-      "I am a Computer Science graduate volunteering as a Business Analyst while also working as a Litigation Caseworker.",
+      "Published author. CS graduate. Litigation Caseworker. Business Analyst. Where creativity meets technology and legal excellence.",
     longBio:
       "A First Class Computer Science graduate with a dual professional profile spanning legal operations and business analysis. As a Litigation Caseworker, I manage complex legal cases under strict regulatory frameworks, while concurrently applying analytical and systems-thinking skills as a volunteer Business Analyst. I bring a rare combination of technical rigour, process-driven thinking, and practical exposure to high-stakes environments.",
     avatarUrl: "/avatar-placeholder.png",
@@ -118,6 +118,16 @@ export const siteConfig: PortfolioConfig = {
       impact: "Cut weekly reporting time from 4 hours to 20 minutes.",
       techStack: ["React", "TypeScript", "Python", "BigQuery"],
       repoUrl: "https://github.com/yourhandle/hiring-analytics"
+    },
+    {
+      slug: "feedback-pro",
+      title: "Feedback Pro",
+      summary:
+        "A Django-based evaluation platform where students submit code assignments and receive automated feedback on syntax, indentation, and commenting quality.",
+      impact:
+        "Improved consistency and speed of assignment evaluation by combining tutor-configurable criteria with role-based workflows for students, tutors, and admins.",
+      techStack: ["Python", "Django", "SQLite", "HTML", "CSS"],
+      repoUrl: "https://github.com/Chin3ll/feedback-pro"
     }
   ],
   education: [
