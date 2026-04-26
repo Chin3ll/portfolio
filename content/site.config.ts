@@ -14,7 +14,7 @@ export const siteConfig: PortfolioConfig = {
     resumeUrl: "/resume.pdf"
   },
   socials: [
-    { label: "GitHub", href: "https://github.com/yourhandle" },
+    { label: "GitHub", href: "https://github.com/chin3ll" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/ochinell-olotu-43226a219" },
     { label: "X", href: "https://x.com/yourhandle" }
   ],
