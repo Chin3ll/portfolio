@@ -8,11 +8,11 @@ type ProjectsSectionProps = {
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {
   return (
-    <section id="projects" className="space-y-4">
-      <h2 className="text-2xl font-semibold text-white">Projects</h2>
+    <section id="projects" className="section-shell space-y-5">
+      <h2 className="section-title">Projects</h2>
       <div className="grid gap-4 lg:grid-cols-2">
         {projects.map((project) => (
-          <article key={project.slug} className="rounded-lg border border-slate-800 bg-slate-900 p-4">
+          <article key={project.slug} className="rounded-xl border border-white/10 bg-slate-950/70 p-5">
             <h3 className="text-lg font-medium text-white">{project.title}</h3>
             <p className="mt-2 text-sm text-slate-300">{project.summary}</p>
             <p className="mt-2 text-sm text-cyan-300">{project.impact}</p>

@@ -3,46 +3,99 @@ import { PortfolioConfig } from "@/lib/types";
 export const siteConfig: PortfolioConfig = {
   person: {
     fullName: "Oluwatoyin Chinell Olotu",
-    title: "Computer Science Graduate",
+    title: "Business Analyst",
     location: "Liverpool, United Kingdom",
     email: "Ochinell@outlook.com",
     shortBio:
       "I am a Computer Science graduate volunteering as a Business Analyst while also working as a Litigation Caseworker.",
     longBio:
-      "I am a Computer Science graduate with a multidisciplinary background across technology, legal operations, and business analysis. I currently volunteer as a Business Analyst and also work as a Litigation Caseworker, bringing structured problem-solving, stakeholder communication, and process improvement to every project.",
+      "A First Class Computer Science graduate with a dual professional profile spanning legal operations and business analysis. As a Litigation Caseworker, I manage complex legal cases under strict regulatory frameworks, while concurrently applying analytical and systems-thinking skills as a volunteer Business Analyst. I bring a rare combination of technical rigour, process-driven thinking, and practical exposure to high-stakes environments.",
     avatarUrl: "/avatar-placeholder.png",
     resumeUrl: "/resume.pdf"
   },
   socials: [
     { label: "GitHub", href: "https://github.com/yourhandle" },
-    { label: "LinkedIn", href: "https://linkedin.com/in/yourhandle" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/ochinell-olotu-43226a219" },
     { label: "X", href: "https://x.com/yourhandle" }
   ],
   skills: [
     {
-      title: "Frontend",
-      skills: ["TypeScript", "React", "Next.js", "Tailwind CSS"]
+      title: "Business Analysis",
+      skills: [
+        "Requirements Gathering",
+        "Stakeholder Management",
+        "Business Process Mapping",
+        "Gap Analysis"
+      ]
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Express", "PostgreSQL", "REST APIs"]
+      title: "Data and Reporting",
+      skills: [
+        "Data Analysis",
+        "Excel (Advanced)",
+        "Power BI",
+        "KPI and Dashboard Design"
+      ]
     },
     {
-      title: "Engineering Practices",
-      skills: ["Testing", "CI/CD", "System Design", "Code Reviews"]
+      title: "Delivery and Documentation",
+      skills: [
+        "User Stories and Acceptance Criteria",
+        "Agile (Scrum/Kanban)",
+        "UAT Planning and Support",
+        "BRD and Functional Specifications"
+      ]
     }
   ],
   experience: [
     {
-      company: "Example Corp",
-      role: "Software Engineer",
-      location: "Remote",
-      startDate: "2023-01",
+      company: "UK Home Office",
+      role: "Litigation Caseworker",
+      location: "Liverpool, United Kingdom",
+      startDate: "2026",
       endDate: "Present",
       achievements: [
-        "Led feature delivery for a customer-facing dashboard used by 10,000+ users.",
-        "Reduced API response latency by 35% through caching and query optimization.",
-        "Introduced CI quality checks that lowered regressions in production."
+        "Managed end-to-end judicial review litigation across the Upper Tribunal and High Court, including pre-action protocol responses and defence coordination with Government Legal Department lawyers.",
+        "Assessed and triaged legal challenges against immigration legislation and policy, escalating systemic issues and collaborating with operational teams to remediate original decision-making errors.",
+        "Coordinated multi-stakeholder case strategy with counsel, policy teams and operational colleagues to meet deadlines and improve settlement and cost outcomes.",
+        "Maintained accurate auditable records across JIRA, ATLAS and SharePoint while handling a high-volume litigation caseload."
+      ]
+    },
+    {
+      company: "Digitus Technologies (Volunteer)",
+      role: "IT Business Analyst",
+      location: "Manchester, United Kingdom",
+      startDate: "Nov 2025",
+      endDate: "Present",
+      achievements: [
+        "Led business analysis training programmes for junior analysts and cross-functional teams on requirements gathering, process mapping and stakeholder engagement.",
+        "Mentored business analysts across project lifecycles, translating business requirements into functional specifications and improving delivery quality.",
+        "Established standardised BA frameworks, templates and documentation practices to improve consistency and continuous improvement."
+      ]
+    },
+    {
+      company: "Crown Prosecution Service",
+      role: "Casework Assistant",
+      location: "Liverpool, United Kingdom",
+      startDate: "Jun 2025",
+      endDate: "Nov 2026",
+      achievements: [
+        "Prepared and managed criminal case files for magistrates' and Crown Court hearings, ensuring court-ready documentation standards.",
+        "Acted as first point of contact for criminal justice partners, victims and witnesses, providing high-quality communication and case support.",
+        "Maintained accurate and retrievable case records in case management systems under tight court deadlines."
+      ]
+    },
+    {
+      company: "I-Lotus Homes",
+      role: "Data Analyst Intern",
+      location: "Lagos, Nigeria",
+      startDate: "Apr 2024",
+      endDate: "Oct 2024",
+      achievements: [
+        "Designed Power BI dashboards for property valuations, occupancy rates and rental yields to support executive portfolio decisions.",
+        "Executed ETL pipelines to consolidate listings, transactions and market data into a central repository with consistent data quality.",
+        "Supported ELT workflows in cloud data warehouse environments to produce analysis-ready datasets for sales, lettings and asset management reporting.",
+        "Used SQL and exploratory analysis to identify pricing patterns, demand fluctuations and portfolio anomalies for technical and non-technical stakeholders."
       ]
     }
   ],
@@ -69,14 +122,26 @@ export const siteConfig: PortfolioConfig = {
   ],
   education: [
     {
-      institution: "Your University",
-      degree: "B.Sc. Computer Science",
-      startDate: "2018",
-      endDate: "2022"
+      institution: "Liverpool John Moores University",
+      degree: "BSc (Hons) Computer Science - First Class",
+      startDate: "Sept 2022",
+      endDate: "Apr 2025"
+    },
+    {
+      institution: "Liverpool John Moores University (ISC)",
+      degree: "Foundation Certificate - Distinction",
+      startDate: "Jan 2022",
+      endDate: "Jul 2022"
+    },
+    {
+      institution: "University of Benin",
+      degree: "Diploma, Computer Engineering",
+      startDate: "Sept 2009",
+      endDate: "Aug 2011"
     }
   ],
   seo: {
-    title: "Your Name | Software Engineer",
+    title: "Oluwatoyin Chinell Olotu | Business Analyst",
     description:
       "Software engineer portfolio showcasing projects, experience, and technical expertise.",
     siteUrl: "https://yourdomain.com",

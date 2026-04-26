@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <div className="mx-auto min-h-screen w-full max-w-5xl px-6 py-10">{children}</div>
+        <div className="mx-auto min-h-screen w-full max-w-6xl px-6 py-8 sm:py-10">{children}</div>
       </body>
     </html>
   );
